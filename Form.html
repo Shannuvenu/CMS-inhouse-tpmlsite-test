@@ -1,0 +1,110 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA1ax-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+
+</head>
+<body>
+<!-- Trigger Button -->
+
+
+<!-- Modal Form -->
+<div class="modalForm" id="contactModal" tabindex="-1" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Close Button -->
+            <img id="btnClose" src="./Content/svg/close.svg" alt="" class="close close-position" data-dismiss="modal">
+
+            <!-- Modal Body -->
+            <div class="modal-body">
+                <div class="contact-section">
+                    <div class="container">
+                        <p class="contact-head">Hi! We’d love to hear from you.</p>
+
+                        <!-- Contact Form -->
+                        <div class="contact-container">
+                            <form class="form-horizontal" action="">
+                                <div class="form-group">
+                                    <label for="inputEmail3" class="col-sm-3 control-label">Your name*</label>
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" id="txtName" placeholder="Kaveri" required="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-3 control-label">Email*</label>
+                                    <div class="col-sm-8">
+                                        <input type="email" class="form-control" id="txtEmail" placeholder="Kaveri@example.com" required="">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-3 control-label">Category</label>
+                                    <div class="col-sm-4 col-xs-10">
+                                        <select class="form-control styled-select ">
+                                            <option>General Enquiry</option>
+                                            <option>Ad</option>
+                                            <option>Subscription</option>
+                                            <option>Vendor</option>
+                                            <option>Jobs</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPassword3" class="col-sm-3 control-label">Your Message</label>
+                                    <div class="col-sm-8">
+                                        <textarea id="txtMessage" class="form-control" rows="2" required=""></textarea>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="col-md-offset-5">
+                            <input type="button" id="btnMailSubmit" value="Submit" class="contact-submit" title="">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript to open and close the modal -->
+<script>
+    // Open the modal when "Write to us" link is clicked
+    document.getElementById('openModalButton').addEventListener('click', function() {
+        document.getElementById('contactModal').style.display = 'block';
+    });
+
+    // Close the modal when the close button (X) is clicked
+    document.getElementById('btnClose').addEventListener('click', function() {
+        document.getElementById('contactModal').style.display = 'none';
+    });
+
+    // Close the modal when clicking outside of the modal content
+    window.addEventListener('click', function(event) {
+        var modal = document.getElementById('contactModal');
+        if (event.target == modal) {
+            modal.style.display = 'none';
+        }
+    });
+</script>
+
+
+ 
+</body>
+
+
+</html>

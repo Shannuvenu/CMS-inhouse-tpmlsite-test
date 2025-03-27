@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="header-placeholder"></div> <!-- Placeholder for header -->
+    
+    <main>
+        <h2>Welcome to the homepage!</h2>
+        <p>This is the main content of the website.</p>
+    </main>
+    
+    <div id="footer-placeholder"></div> <!-- Placeholder for footer -->
+
+    <script>
+        // Function to load external HTML content into the page
+        function loadContent() {
+            // Fetch and load header content
+            fetch('header.html')
+                .then(response => response.text())
+                .then(data => document.getElementById('header-placeholder').innerHTML = data);
+
+            // Fetch and load footer content
+            fetch('footer.html')
+                .then(response => response.text())
+                .then(data => document.getElementById('footer-placeholder').innerHTML = data);
+        }
+
+        // Call the function to load content when the page is loaded
+        window.onload = loadContent;
+    </script>
+</body>
+</html>

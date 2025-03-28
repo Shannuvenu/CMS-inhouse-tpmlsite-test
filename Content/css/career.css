@@ -1,0 +1,191 @@
+﻿.carousel-indicators
+{
+    bottom:-27px;
+}
+.table-scroll td {
+  
+    vertical-align: middle !important;
+    padding: 30px !important;
+}
+
+.table-scroll th {
+
+    vertical-align: middle !important;
+    padding: 30px !important;
+}
+.jobdes {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.row-select .btn {
+    border-radius: 4px !important;
+}
+
+
+    .brand-career-font-h1{
+    font-family: canada-type-gibson,sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.06;
+    color: #FFF;
+    width: 85%;
+}
+
+
+.carousel-indicators .active {
+    margin: 0;
+    width: 12px;
+    height: 12px;
+    background-color: black !important;
+}
+.blue-label {
+    color: #0092C8;
+}
+.row-select tr:nth-of-type(2n+1) {
+    background-color: #DDDDDD !important;
+}
+.table-bold-th{
+    font-size:18px;
+    font-weight:600;
+}
+.margintop-30{
+    margin-top:30px !important;
+}
+
+.resume-box {
+    border: 1px solid #166DFC;
+    border-radius: 27px;
+    padding: 20px;
+    max-width: 800px;
+}
+.resume-box a {
+    color: #0092C8;
+}
+
+.carousel-indicators li {
+    margin: 0;
+    width: 12px;
+    height: 12px;
+    background-color: gray !important;
+}
+.italic-statement{
+    font-style:italic;
+}
+.jobdes-heading h3 {
+    display: inline;
+    font-weight: 600;
+}
+
+.jobdes-heading h2 {
+    display: inline;
+}
+
+.brand-white {
+    color: white !important;
+}
+
+.spacing-span{
+   margin-left:75px;
+}
+.inline-block{
+    display:inline-block;
+}
+.bottom-font {
+    font-size: 16px;
+    margin: -17px 0 0 20px;
+
+}
+.div-f-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    max-width: 468px;
+}
+
+.white-cont {
+    background-color: white;
+    border-radius: 12px;
+    color: black;
+    margin-bottom: 40px;
+    height: 736px;
+    overflow: auto;
+}
+@media screen and (min-width: 320px) {
+    .brand-career-font-h1 {
+        font-family: canada-type-gibson, sans-serif;
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 1.06;
+        color: #FFF;
+        width: 100%;
+    }
+}
+@media screen and (max-width : 520px) {
+    .table-bold-th {
+        font-size: 15px;
+    }
+
+    .resume-box h2 {
+        font-size: 20px;
+    }
+    .div-f-row {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        align-items: baseline;
+        flex-direction: row;
+    }
+    .resume-box h3 {
+        font-size: 16px;
+    }
+    .white-cont {
+        background-color: white;
+        border-radius: 12px;
+        color: black;
+        margin-bottom: 40px;
+        overflow: auto;
+        height: 610px;
+    }
+    .row-select tr{
+        height:100px;
+    }
+
+    .table-scroll {
+        font-size: 13px;
+    }
+        .table-scroll td {
+           
+            padding: 20px !important;
+        }
+
+        .table-scroll th {
+    
+            padding: 20px !important;
+        }
+
+  
+}
+
+
+@media screen and (min-width: 768px){
+    .brand-career-font-h1 {
+        font-family: canada-type-gibson, sans-serif;
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 1.06;
+        color: #FFF;
+        width: 85%;
+    }
+}
+@media only screen and (min-width: 1224px) {
+
+    .brand-career-font-h1 {
+        font-family: canada-type-gibson, sans-serif;
+        font-size: 90px;
+        font-weight: 600;
+        line-height: 1.06;
+        color: #FFF;
+        width: 85%;
+    }
+}

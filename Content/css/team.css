@@ -1,0 +1,803 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*Subcription*/
+.subscribtion-banner {
+    background: url(../svg/gradient-team.svg) 60% 60px, url(../images/subscription-banner.jpg) 50% 60px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    height: 306px;
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding: 228px 0;
+    background-blend-mode: multiply;
+}
+
+.carousel-caption-sub {
+    position: absolute;
+    left: 17px;
+    top: 30px;
+    padding-bottom: 30px;
+}
+
+.sub-banner-font {
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 1.06;
+    color: #FFF;
+}
+
+.top40 {
+    margin-top: 40px;
+}
+.flexrow{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+    height:120px;
+}
+.img-holder {
+    max-width: 150px;
+}
+.slider-image-contianer{
+    max-width:200px;
+
+}
+.flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    display: none;
+}
+
+.carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border-radius: 15px;
+}
+ .large-slider {
+    display: unset;
+}
+
+
+
+/*Contact us*/
+.contact-banner {
+    background: url(../svg/gradient-team.svg) -235px 70px, url(../images/contact-banner.jpg) 50% 69px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    height: 306px;
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding: 277px 0;
+    background-blend-mode: multiply;
+}
+
+.carousel-caption-contact {
+    position: absolute;
+    left: 17px;
+    top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.contact-banner-font {
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 1.06;
+    color: #FFF;
+}
+
+
+
+
+.team-crop-width {
+    width: 99%;
+    padding: 0 0 0 10px;
+}
+.top-space-joinus {
+margin-top:30px;
+}
+.text-align-c {
+	text-align:left !important;
+}
+
+.linkedin-color-coming {
+    font-size: 32px !important;
+    color: #007bb6;
+	margin-right:10px;
+}
+
+.team-talent-font  {
+    font-size: 20px;
+   
+}
+
+.panel-default-blue-color {
+    color: #ffffff !important;
+    background-color: #1e74ff !important;
+    border-color:none;
+}
+
+
+
+/*#float-btn {
+ height:70px;
+	box-sizing:border-box;
+	padding:15px 0;
+	background:#1e74ff;
+	text-align:center;
+	font-size:30px;
+	color:#FFF;
+	font-weight: 600;
+	cursor:pointer;
+	width:100%;
+  position: absolute;
+  top: 90%;
+  left: 0px;
+  bottom:0;
+  	z-index:1;
+	
+}*/
+
+  .team-sm-space { margin-top:0px;}
+.team-workwith-bg {
+	 height:70px;
+	box-sizing:border-box;
+	padding:15px 0;
+	background:#1e74ff;
+	text-align:center;
+	font-size:30px;
+	color:#FFF;
+	font-weight: 600;
+	cursor:pointer;
+	width:100%;
+  position: fixed;
+  top: 90%;
+  left: 0px;
+  bottom:0;
+  	z-index:1;
+
+	/*margin-top: 140px;*/
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.team-workwith-bg:hover { background:#135ad2; -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;}
+/*.team-slide { padding:30px 0;}*/
+.team-heading {
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 1.03;
+	text-align: left;
+	color: #4a4a4a;
+	padding: 8px 0 8px 0px;
+}
+.team-heading1 {
+	font-size: 60px;
+	font-weight: 500;
+	line-height: 1.03;
+	text-align: left;
+	color: #4a4a4a;
+	padding: 95px 0 67px 0px;
+}
+.work-link-color { color:#FFF !important;}
+.workwith-svg-top {
+	margin-top: 58px;
+}
+.workwith-head1 {
+	font-size:32px;
+}
+.workwith-exp {
+	font-size:16px;
+}
+.workwith-location {
+	font-size:32px;
+}
+.workwith-btn {
+	background: #2073ff;
+	font-size: 30px;
+	font-weight: 600;
+	color: #FFF;
+	width: 206px;
+	display: block;
+	padding: 5px 0px 12px 0px;
+	box-sizing: border-box;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.workwith-btn:hover {
+	background: #135ad2;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	color:#FFF;
+}
+.workwith-banner {
+	background: url(../images/gradient-black.png), url(../images/workwith-banner1x.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-size: cover, cover;
+	height: 306px;
+	color:#FFF;
+	font-size: 80px;
+	font-weight: 600;
+	box-sizing:border-box;
+	padding:145px 0 0 0;
+	background-blend-mode: multiply;
+}
+.workwith-banner-career {
+    background: url(../svg/brand-banner-gradient.svg) 50% 50%,url(../images/career/join_us_cover_mobile.jpg) 50%;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    height: 457px;
+    color: #FFF;
+    font-size: 80px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding: 145px 0 0 0;
+    background-blend-mode: multiply;
+}
+.comment {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.team-img-circle {
+	background: #FFF;
+	width: 208px;
+	height: 208px;
+	border-radius: 50%;
+	border:3px solid #1e74ff;
+	margin-bottom: 31px;
+}
+.workwith-hr {
+	border-bottom: solid 1px #979797;
+	margin-top:91px;
+}
+.workwith-joblist > div {
+	border-top:1px solid #979797;
+	padding:25px 0;
+	display:block;
+	overflow:hidden;
+}
+.workwith-joblist > div:last-child {
+	border-bottom:1px solid #979797;
+}
+.morecontent span {
+	display: none;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.morelink {
+	display: block;
+	float: right;
+	margin: 20px 0 !important;
+	font-weight:300;
+}
+.team-svg-top {
+	margin-top: 110px;
+}
+.text-align-c {
+	text-align:left !important;
+}
+.carousel-caption-team {
+    position: absolute;
+    left: 17px;
+    top: 180px;
+    padding-bottom: 30px;
+}
+
+.team-banner-font {
+	font-family: canada-type-gibson, sans-serif;
+	font-size: 90px;
+	font-weight: 600;
+	line-height: 1.06;
+	color: #FFF;
+	width: 93%;
+	padding: 0 0 0 15px;
+}
+.header-team {
+	background: url(../svg/gradient-team.svg) 60% 50%, url(../images/team-banner1x.jpg) 50% 50%;
+	height: 530px;
+	background-blend-mode: multiply;
+	background-repeat: no-repeat, no-repeat;
+	z-index: 0, 1;
+	background-size: cover, cover;
+}
+.team-lead-jumbo {
+	font-size: 26px;
+	padding: 30px 70px;
+}
+.manage-name {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom:12px;
+}
+.team-desig {
+	font-weight: 400;
+	margin-bottom:24px;
+}
+.team-sec-space1 {
+	margin-top:48px;
+}
+ @media screen and (min-width : 320px) {
+    .morelink {
+        display: block;
+        float: right;
+        margin: 0 0 !important;
+        font-weight: 300;
+    }
+    .subscribtion-banner {
+        background: url(../svg/gradient-team.svg) 60% 50%, url(../images/subscription-banner.jpg) 50% 50%;
+        background-repeat: no-repeat, no-repeat;
+        background-size: cover, cover;
+        height: 306px;
+        color: #FFF;
+        font-size: 80px;
+        font-weight: 600;
+        box-sizing: border-box;
+        padding: 225px 0;
+        background-blend-mode: multiply;
+    }
+
+    .carousel-caption-sub {
+        position: absolute;
+        left: 17px;
+        top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .sub-banner-font {
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 1.06;
+        color: #FFF;
+    }
+
+    .contact-banner {
+        background: url(../svg/gradient-team.svg) -235px 70px, url(../images/contact-banner.jpg) 50% 69px;
+        background-repeat: no-repeat, no-repeat;
+        background-size: cover, cover;
+        height: 306px;
+        color: #FFF;
+        font-size: 80px;
+        font-weight: 600;
+        box-sizing: border-box;
+        padding: 277px 0;
+        background-blend-mode: multiply;
+    }
+
+    .carousel-caption-contact {
+        position: absolute;
+        left: 17px;
+        top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .contact-banner-font {
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 1.06;
+        color: #FFF;
+    }
+
+
+
+
+    .carousel-caption-team {
+        position: absolute;
+        left: 15px;
+        top: 169px;
+        padding-bottom: 30px;
+    }
+	 .team-sec-space1 {
+	margin-top:0px;
+}
+    .team-banner-font {
+        font-size: 45px;
+        width: 100%;
+        padding: 0px;
+    }
+.team-lead-jumbo {
+	font-size: 20px;
+	padding: 10px 0px;
+}
+.team-svg-top {
+	margin-top: 50px;
+}
+.team-heading {
+    font-size: 30px;
+    padding: 8px 0px 8px 15px;
+}
+
+.team-heading1 {
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 1.03;
+	text-align: left;
+	color: #4A4A4A;
+	padding:38px 0px 46px 15px;
+}
+.manage-name {
+	font-size:30px;
+	font-weight: 600;
+	margin-bottom: 12px;
+}
+.workwith-banner {
+	font-size: 30px;
+	padding: 193px 0px 0px;
+}
+.sm-space-btn {
+	margin-top: 19px;
+}
+.text-align-c {
+	text-align:center !important;
+}
+#float-btn {
+
+  top: 85%;
+ 
+	
+}
+.plus-minus {
+	 position: relative;
+    top: 16px;
+    right: 20px;
+    display: inline;
+    float: right;
+	
+	}
+	
+	.team-sm-space {
+    margin-top: 40px;
+}
+}
+
+
+ @media screen and (min-width: 768px) {
+
+
+
+    .workwith-banner-career {
+        background: url(../svg/brand-banner-gradient.svg) 50% 50%,url(../images/career/join_us_cover_mobile.jpg) 50%;
+        background-repeat: no-repeat, no-repeat;
+        background-size: cover, cover;
+        height: 457px;
+        color: #FFF;
+        font-size: 80px;
+        font-weight: 600;
+        box-sizing: border-box;
+        padding: 145px 0 0 0;
+        background-blend-mode: multiply;
+    }
+    .subscribtion-banner {
+        background: url(../svg/gradient-team.svg) 60% 50%, url(../images/subscription-banner.jpg) 50% 50%;
+        background-repeat: no-repeat, no-repeat;
+        background-size: cover, cover;
+        height: 306px;
+        color: #FFF;
+        font-size: 80px;
+        font-weight: 600;
+        box-sizing: border-box;
+        padding: 225px 0;
+        background-blend-mode: multiply;
+    }
+
+    .carousel-caption-sub {
+        position: absolute;
+        left: 17px;
+        top: -20px;
+        padding-bottom: 30px;
+    }
+
+    .sub-banner-font {
+        font-size: 90px;
+        font-weight: 600;
+        line-height: 1.06;
+        color: #FFF;
+    }
+
+
+    .contact-banner {
+        background: url(../svg/gradient-team.svg) -235px 70px, url(../images/contact-banner.jpg) 50% 69px;
+        background-repeat: no-repeat, no-repeat;
+        background-size: cover, cover;
+        height: 306px;
+        color: #FFF;
+        font-size: 80px;
+        font-weight: 600;
+        box-sizing: border-box;
+        padding: 277px 0;
+        background-blend-mode: multiply;
+    }
+
+    .carousel-caption-contact {
+        position: absolute;
+        left: 17px;
+        top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .contact-banner-font {
+        font-size: 90px;
+        font-weight: 600;
+        line-height: 1.06;
+        color: #FFF;
+    }
+	 
+	 .team-sm-space { margin-top:60px;}
+	 
+	
+	 .team-banner-font {
+	font-size: 5em;
+}
+	 .team-sec-space1 {
+	margin-top:68px;
+}
+.workwith-banner {
+	font-size: 80px;
+	padding:145px 0 0 0;
+}
+.carousel-caption-team {
+	position: absolute;
+	left: 17px;
+	top: 105px;
+	padding-bottom: 30px;
+}
+
+.sm-space-btn {
+	margin-top: 19px;
+}
+.team-svg-top {
+	margin-top: 110px;
+}
+.team-lead-jumbo {
+	font-size: 26px;
+	padding: 30px 70px;
+}
+.team-heading {
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 1.03;
+	text-align: left;
+	color: #4a4a4a;
+	padding: 8px 0 8px 0px;
+}
+.team-heading1 {
+	font-size: 60px;
+	font-weight: 500;
+	line-height: 1.03;
+	text-align: left;
+	color: #4A4A4A;
+	padding: 145px 0px 67px;
+}
+.manage-name {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 12px;
+}
+.text-align-c {
+	text-align:left !important;
+}
+
+#float-btn {
+
+  top: 50%;
+
+}
+.plus-minus {
+	position: relative;
+    top: 16px;
+    right: 20px;
+    display: inline;
+    float: right;
+	font-size: 16px;
+	}
+}
+@media screen and (min-width: 985px) {
+
+    .flex-row-center {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+    }
+    .mobile-slider {
+        display: none;
+    }
+}
+    @media only screen and (min-width : 1024px) {
+        .workwith-banner-career {
+            background: url(../images/workwith-banner1x.jpg);
+            background-repeat: no-repeat, no-repeat;
+            background-size: cover, cover;
+            height: 457px;
+            color: #FFF;
+            font-size: 80px;
+            font-weight: 600;
+            box-sizing: border-box;
+            padding: 145px 0 0 0;
+            background-blend-mode: multiply;
+        }
+        .subscribtion-banner {
+            background: url(../svg/gradient-team.svg) 60% 60px, url(../images/subscription-banner.jpg) 50% 60px;
+            background-repeat: no-repeat, no-repeat;
+            background-size: cover, cover;
+            height: 306px;
+            color: #FFF;
+            font-size: 80px;
+            font-weight: 600;
+            box-sizing: border-box;
+            padding: 228px 0;
+            background-blend-mode: multiply;
+        }
+
+        .carousel-caption-sub {
+            position: absolute;
+            left: 17px;
+            top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .sub-banner-font {
+            font-size: 90px;
+            font-weight: 600;
+            line-height: 1.06;
+            color: #FFF;
+        }
+
+        .contact-banner {
+            background: url(../svg/gradient-team.svg) -235px 70px, url(../images/contact-banner.jpg) 50% 69px;
+            background-repeat: no-repeat, no-repeat;
+            background-size: cover, cover;
+            height: 306px;
+            color: #FFF;
+            font-size: 80px;
+            font-weight: 600;
+            box-sizing: border-box;
+            padding: 277px 0;
+            background-blend-mode: multiply;
+        }
+
+        .carousel-caption-contact {
+            position: absolute;
+            left: 17px;
+            top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .contact-banner-font {
+            font-size: 90px;
+            font-weight: 600;
+            line-height: 1.06;
+            color: #FFF;
+        }
+
+
+
+        .team-sm-space {
+            margin-top: 0px;
+        }
+    }
+
+
+
+    @media only screen and (min-width : 1224px) {
+
+        .team-sm-space {
+            margin-top: 30px;
+        }
+
+        .workwith-banner-career {
+            background: url(../images/workwith-banner1x.jpg) ;
+            background-repeat: no-repeat, no-repeat;
+            background-size: cover, cover;
+            height: 457px;
+            color: #FFF;
+            font-size: 80px;
+            font-weight: 600;
+            box-sizing: border-box;
+            padding: 145px 0 0 0;
+            background-blend-mode: multiply;
+        }
+        .carousel-caption-team {
+            position: absolute;
+            left: 17px;
+            top: 180px;
+            padding-bottom: 30px;
+        }
+
+
+        .sm-space-btn {
+            margin-top: 0;
+        }
+
+        .team-banner-font {
+            font-size: 90px;
+            padding: 0;
+        }
+
+        .team-lead-jumbo {
+            font-size: 26px;
+            padding: 30px 70px;
+        }
+
+        .team-svg-top {
+            margin-top: 110px;
+        }
+
+        .team-heading {
+            font-size: 32px;
+            color: #4a4a4a;
+            padding: 8px 0 8px 15px;
+        }
+
+        .plus-minus {
+            position: relative;
+            top: 6px;
+            right: 20px;
+            display: inline;
+            float: right;
+            font-size: 24px;
+        }
+
+        .team-heading1 {
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 1.03;
+            text-align: left;
+            color: #4A4A4A;
+            padding: 145px 0px 67px;
+        }
+
+        .manage-name {
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+
+        .workwith-banner {
+            font-size: 80px;
+            padding: 145px 0 0 0;
+        }
+
+        .text-align-c {
+            text-align: left !important;
+        }
+
+        .team-sec-space1 {
+            margin-top: 48px;
+        }
+
+        #float-btn {
+            top: 90%;
+        }
+    }
+
+
+

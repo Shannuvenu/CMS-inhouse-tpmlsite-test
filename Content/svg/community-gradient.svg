@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1226px" height="529px" viewBox="0 0 1226 529" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>F0FF2C10-0B6F-446C-A534-A4E21721DE7E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.00416105041" width="1562.47865" height="528.579409"></rect>
+        <radialGradient cx="48.2788056%" cy="51.7028235%" fx="48.2788056%" fy="51.7028235%" r="50%" id="radialGradient-3">
+            <stop stop-color="#393939" stop-opacity="0.975571784" offset="0%"></stop>
+            <stop stop-color="#A9A9A9" stop-opacity="0.597118433" offset="66.6538068%"></stop>
+            <stop stop-color="#D8D8D8" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Banners-other-pages-(1600px)" transform="translate(0.000000, -706.000000)">
+            <g id="gradient" style="mix-blend-mode: multiply;" transform="translate(-118.000000, 706.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <circle id="Oval-4-Copy-2" fill="url(#radialGradient-3)" style="mix-blend-mode: multiply;" mask="url(#mask-2)" cx="602.36127" cy="342.634866" r="767.729434"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

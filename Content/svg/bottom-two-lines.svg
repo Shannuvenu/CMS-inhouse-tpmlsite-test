@@ -1,0 +1,57 @@
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1129.167 51.333" style="enable-background:new 0 0 1129.167 51.333;" xml:space="preserve">
+<defs>
+	<style type="text/css">
+ .st0{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+
+	.st0 {
+	stroke-dasharray: 1200;
+	stroke-dashoffset:0;
+	-webkit-animation: dash 20s linear forwards;
+	-moz-animation: dash 20s linear forwards;
+	-o-animation: dash 20s linear forwards;
+	-ms-animation: dash 20s linear forwards;
+	animation: dash 20s linear forwards;
+	}
+	
+	@keyframes dash {
+	from{
+	stroke-dashoffset:1200;
+	}
+	to{
+	stroke-dashoffset:0;
+	}
+	}
+	
+	 .st1{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;}
+
+	.st1 {
+	stroke-dasharray: 1200;
+	stroke-dashoffset:0;
+	-webkit-animation: dash 20s linear forwards;
+	-moz-animation: dash 20s linear forwards;
+	-o-animation: dash 20s linear forwards;
+	-ms-animation: dash 20s linear forwards;
+	animation: dash 20s linear forwards;
+	}
+	
+	@keyframes dash {
+	from{
+	stroke-dashoffset:1200;
+	}
+	to{
+	stroke-dashoffset:0;
+	}
+	}
+</style>
+</defs>
+<line class="st0" x1="69.917" y1="-268" x2="69.917" y2="-229.75"/>
+<line class="st0" x1="25.292" y1="-221.5" x2="63.542" y2="-221.5"/>
+<line class="st0" x1="1068.292" y1="-268" x2="1068.292" y2="-229.75"/>
+<line class="st0" x1="1112.917" y1="-221.5" x2="1074.667" y2="-221.5"/>
+<line class="st1" x1="0" y1="4.667" x2="41.167" y2="4.667"/>
+<line class="st1" x1="47.5" y1="51.333" x2="47.5" y2="10.333"/>
+<line class="st1" x1="1124.833" y1="3.5" x2="1085.167" y2="3.5"/>
+<line class="st1" x1="1078.292" y1="51" x2="1078.292" y2="10.167"/>
+</svg>

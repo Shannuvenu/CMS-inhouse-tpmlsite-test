@@ -1,23 +1,31 @@
-﻿
-
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
 
 
-/*Modal popup*/
+/*27-03-2025 Faris*/
 
-/*25/03/2025/ Faris */
-
-.modal-backdrop.in {
+.modal-backdrop {
     position: relative;
 }
+
 .close {
     float: right;
-    font-size: 2.5rem;
+    font-size: 32px;
 }
 
-/* End 25/03/2025/ Faris */
+.close-position {
 
+    filter: invert(1);
+}
+
+.modal-content {
+        background-color: rgb(227, 237, 253) !important;
+}
+
+/*End */
+
+
+/*Modal popup*/
 .contact-topMargin {
     margin-top: 23px;
 }
@@ -83,25 +91,11 @@ font-weight:500 !important;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    margin-top: 100px;
-}
-
-.close12 {
-    color: #908e8e;
-    float: right;
-    font-size: 40px;
-    font-weight: bold;
-    cursor: pointer;
-    position: fixed;
-    right: 193px;
 }
 
     .modal-content12 p {
         margin: 10px 0;
     }
-
-
-
 /* The Close Button */
 .close12 {
     color: #908e8e;
@@ -174,6 +168,8 @@ font-weight:500 !important;
         cursor: pointer;
         /*popup close*/
     }
+
+
 
 
 
@@ -4659,8 +4655,7 @@ label {
 
 .modal-content {
     position: relative;
-/*    background-color: #1e74ff;*/
-    background-color:    rgb(227, 237, 253);
+    background-color: #1e74ff;
     border: 0;
     border: 0;
     border-radius: 0;
@@ -4763,7 +4758,6 @@ label {
     top: 34px;
     z-index: 1;
     color: #FFF;
-    filter: grayscale(100%) invert(1);
 }
 /* address */
 

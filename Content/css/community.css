@@ -1,5 +1,15 @@
 ﻿@charset "utf-8";
 /* CSS Document */
+
+img.img-position.img-responsive {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    max-width: 600px;
+    min-width: 600px;
+}
+
+
 .morecontent span {
 	display: none;
 	-webkit-transition: all 1s ease;
@@ -91,156 +101,190 @@
 	background-blend-mode: multiply;
 }
 
- @media screen and (min-width : 320px) {
 
-	.part-heading {
-		padding: 40px 0 20px 15px;
-		font-size: 30px;
-	}
-.ptship-lead-jumbo {
-	font-size: 20px;
-	padding:0;
-}
-.partner-svg-top {
-	margin-top: 50px;
-}
-.prtship-content {
-	width: 100%;
-	padding: 20px 0px 0px 18px;
-}
-    .carousel-caption-commu {
-        /*left: 15px; */
-        top: 169px;
+@media only screen and (max-width :767px) {
+    img.img-position.img-responsive {
+        width: unset;
+        height: 225px;
+        object-fit: cover;
+        max-width: 100%;
+        min-width: unset;
     }
-.text-align-c {
-	text-align:center !important;
-}
-.ptship-heading {
-	font-size: 30px;
-	padding: 1px 0px 35px 14px;
-}
-.header-community {
-    background: url("../svg/community-gradient.svg") no-repeat scroll 50% 50% / cover , transparent url("../images/community-banner.jpg") no-repeat scroll 82% 69px / cover;
-    height: 530px;
-    background-blend-mode: multiply;
-}
-/*--community --*/	 
-.community-banner-font {
-	font-size: 45px;
-    width:100%;
-}
+
 
 }
- @media screen and (min-width: 768px) {
-	 
-	 .carousel-control {
-    
-    left: 53px;
-   
-}
 
-.carousel-control.right {
-   
-    right: -4px;
-}
+    @media screen and (min-width : 320px) {
 
-	.part-heading {
-		font-size: 60px;
-		font-weight: 500;
-		line-height: 1.03;
-		text-align: left;
-		color: #4a4a4a;
-		padding: 70px 0 70px 15px;
-	}
-.prtship-content {
-	width: 100%;
-	padding: 20px 0px 0px 18px;
-}
-.ptship-event-p {
-	margin-top: 22px;
-}
-.partner-banner-font {
-	font-size: 5em;
-}
-.ptship-lead-jumbo {
-	font-size: 26px;
-	padding: 30px 70px;
-}
-.partner-svg-top {
-	margin-top: 110px;
-}
-.carousel-caption-commu {
-	left: 0px;
-	top: 130px;
-}
-.text-align-c {
-	text-align:center !important;
-}
-.ptship-heading {
-	font-size: 45px;
-}
-/*--community --*/	
-	 
-	 .community-banner-font {
-	font-size: 5em;
-}
-/*--community close--*/
-}
+     
 
-@media(min-width:992px){  
-.carousel-control.right {
-    right: 155px;
-}
 
-}
- @media only screen and (min-width : 1224px) {
-	 
-	 .carousel-control.right {
-    right: -62px;
-}
+        .part-heading {
+            padding: 40px 0 20px 15px;
+            font-size: 30px;
+        }
 
-.carousel-control {
-    left: -57px;
-}
+        .ptship-lead-jumbo {
+            font-size: 20px;
+            padding: 0;
+        }
 
-	.part-heading {
-		font-size: 60px;
-		font-weight: 500;
-		line-height: 1.03;
-		text-align: left;
-		color: #4a4a4a;
-		padding: 70px 0 70px 15px;
-	}
-.ptship-heading {
-	font-size: 45px;
-}
-.prtship-content {
-	width: 31%;
-	padding: 0px 0px 0px 18px;
-}
-.ptship-event-p {
-	margin-top: 30px;
-}
-.ptship-lead-jumbo {
-	font-size: 26px;
-	padding: 30px 70px;
-}
-.partner-svg-top {
-	margin-top: 110px;
-}
-.carousel-caption-commu {
-	left: 0px;
-		top: 200px;
-}
-.text-align-c {
-	text-align:left !important;
-}
-/*--community --*/	
+        .partner-svg-top {
+            margin-top: 50px;
+        }
 
-.community-banner-font {
-	font-size: 90px !important;
-	width:85%;
-}
+        .prtship-content {
+            width: 100%;
+            padding: 20px 0px 0px 18px;
+        }
 
-}
+        .carousel-caption-commu {
+            /*left: 15px; */
+            top: 169px;
+        }
+
+        .text-align-c {
+            text-align: center !important;
+        }
+
+        .ptship-heading {
+            font-size: 30px;
+            padding: 1px 0px 35px 14px;
+        }
+
+        .header-community {
+            background: url("../svg/community-gradient.svg") no-repeat scroll 50% 50% / cover, transparent url("../images/community-banner.jpg") no-repeat scroll 82% 69px / cover;
+            height: 530px;
+            background-blend-mode: multiply;
+        }
+        /*--community --*/
+        .community-banner-font {
+            font-size: 45px;
+            width: 100%;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+
+        .carousel-control {
+            left: 53px;
+        }
+
+            .carousel-control.right {
+                right: -4px;
+            }
+
+        .part-heading {
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 1.03;
+            text-align: left;
+            color: #4a4a4a;
+            padding: 70px 0 70px 15px;
+        }
+
+        .prtship-content {
+            width: 100%;
+            padding: 20px 0px 0px 18px;
+        }
+
+        .ptship-event-p {
+            margin-top: 22px;
+        }
+
+        .partner-banner-font {
+            font-size: 5em;
+        }
+
+        .ptship-lead-jumbo {
+            font-size: 26px;
+            padding: 30px 70px;
+        }
+
+        .partner-svg-top {
+            margin-top: 110px;
+        }
+
+        .carousel-caption-commu {
+            left: 0px;
+            top: 130px;
+        }
+
+        .text-align-c {
+            text-align: center !important;
+        }
+
+        .ptship-heading {
+            font-size: 45px;
+        }
+        /*--community --*/
+
+        .community-banner-font {
+            font-size: 5em;
+        }
+        /*--community close--*/
+    }
+
+    @media(min-width:992px) {
+        .carousel-control.right {
+            right: 155px;
+        }
+    }
+
+    @media only screen and (min-width : 1224px) {
+
+        .carousel-control.right {
+            right: -62px;
+        }
+
+        .carousel-control {
+            left: -57px;
+        }
+
+        .part-heading {
+            font-size: 60px;
+            font-weight: 500;
+            line-height: 1.03;
+            text-align: left;
+            color: #4a4a4a;
+            padding: 70px 0 70px 15px;
+        }
+
+        .ptship-heading {
+            font-size: 45px;
+        }
+
+        .prtship-content {
+            width: 31%;
+            padding: 0px 0px 0px 18px;
+        }
+
+        .ptship-event-p {
+            margin-top: 30px;
+        }
+
+        .ptship-lead-jumbo {
+            font-size: 26px;
+            padding: 30px 70px;
+        }
+
+        .partner-svg-top {
+            margin-top: 110px;
+        }
+
+        .carousel-caption-commu {
+            left: 0px;
+            top: 200px;
+        }
+
+        .text-align-c {
+            text-align: left !important;
+        }
+        /*--community --*/
+
+        .community-banner-font {
+            font-size: 90px !important;
+            width: 85%;
+        }
+    }
 

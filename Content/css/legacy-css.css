@@ -200,7 +200,7 @@ height:411px;
 	color:#FFF;
 }
 .legacy-lookingforward-content {
-    width: 78%;
+    width: 100%;
     color: #FFF;
     padding: 0 50px 0 0;
 }
@@ -300,9 +300,15 @@ height:211px;
 	padding: 0px 15px;
 	height: 751px;
 }
+    .legacy-blue-bg2{
+        height: auto !important;
+        padding-bottom: 50px !important;
+    }
+
+
 .legacy-blue-bg-sm {
 	padding: 0px 15px;
-	height: 366px !important;
+	/*height: 366px !important;*/
 }
 .impact-img-position {
 	position: relative;
@@ -616,7 +622,7 @@ height:411px;
         line-height:24px;
     }
 .legacy-lookingforward-content {
-    width: 78%;
+    width: 100%;
     color: #FFF;
     padding: 0 50px 0 0;
 }

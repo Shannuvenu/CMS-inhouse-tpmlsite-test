@@ -1,6 +1,6 @@
 ﻿.carousel-indicators
 {
-    bottom:-27px;
+    bottom:-27px !important;
 }
 .table-scroll td {
   

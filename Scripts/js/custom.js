@@ -26,7 +26,6 @@ window.onload = loadContent;
 
 
 
-
         // Get the modal
         var modal = document.getElementById('myModal12');
 
@@ -110,4 +109,6 @@ window.onload = loadContent;
                 $('body').css('overflow-y', 'scroll');
             }
         });
+
+
 

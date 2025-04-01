@@ -4749,7 +4749,10 @@ label {
 
 .close {
     opacity: 1;
-    filter: alpha(opacity=20);
+    filter: alpha(opacity = 20);
+    position: sticky;
+    right: 0;
+    top: 0;
 }
 
 .close-position {
@@ -4860,6 +4863,8 @@ label {
     .navbar-collapse.collapse {
         display: none !important;
     }
+    
+    
 
     .navbar-nav {
         float: none !important;
@@ -4958,6 +4963,8 @@ label {
             -o-transform-origin: left center;
             transform-origin: left center;
         }
+    
+    
 
         #nav-icon4.open span:nth-child(1) {
             -webkit-transform: rotate(45deg);

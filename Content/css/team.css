@@ -270,6 +270,8 @@ margin-top:30px;
 	border-radius: 50%;
 	border:3px solid #1e74ff;
 	margin-bottom: 31px;
+    overflow: hidden;
+    
 }
 .workwith-hr {
 	border-bottom: solid 1px #979797;

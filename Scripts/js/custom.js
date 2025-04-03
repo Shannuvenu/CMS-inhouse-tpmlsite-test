@@ -1,13 +1,13 @@
 // Function to load external HTML content into the page
 function loadContent() {
     // Fetch and load header Home page content
-    fetch('header-home.html')
+    fetch('header-home')
         .then(response => response.text())
         .then(data => document.getElementById('header-home-placeholder').innerHTML = data)
         .catch(error => console.error('Error loading header-home:', error));
 
     // Fetch and load header Inner page content
-    fetch('header.html')
+    fetch('header')
         .then(response => response.text())
         .then(data => document.getElementById('header-placeholder').innerHTML = data)
         .catch(error => console.error('Error loading header:', error));
@@ -15,7 +15,7 @@ function loadContent() {
 
 
     // Fetch and load footer content
-    fetch('footer.html')
+    fetch('footer')
         .then(response => response.text())
         .then(data => document.getElementById('footer-placeholder').innerHTML = data)
         .catch(error => console.error('Error loading footer:', error));

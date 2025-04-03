@@ -52,6 +52,15 @@
             </div>
          </div>
       </header>
+<script>
+       
+        document.addEventListener("DOMContentLoaded", function () {
+        let path = window.location.pathname;
+        if (path.endsWith(".html")) {
+            window.history.replaceState({}, "", path.replace(".html", ""));
+        }
+    });
+       </script>
 </body>
 
 

@@ -18,7 +18,9 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-south-1
-
+          
+      - name: check present directory
+        run: pwd
       - name: Deploy static site to S3 bucket
         run: aws s3 sync --content-type "text/html" --delete ./ s3://printersmysore-corparate-site-prod
         

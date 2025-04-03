@@ -19,8 +19,12 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-south-1
           
-      - name: check present directory
-        run: pwd
+      - name: Rename .html files
+        run: |
+          find . -type f -name "*.html" | while read file; do
+            mv "$file" "${file%.html}"
+          done
+          
       - name: Deploy static site to S3 bucket
         run: aws s3 sync --content-type "text/html" --delete ./ s3://printersmysore-corparate-site-prod
         

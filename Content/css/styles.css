@@ -1,6 +1,12 @@
 ﻿@charset "utf-8";
 /* CSS Document */
 
+/*4-04-2025 Faris*/
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block;
+}
 
 /*27-03-2025 Faris*/
 

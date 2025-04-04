@@ -1,114 +1,384 @@
-// Function to load external HTML content into the page
-function loadContent() {
-    // Fetch and load header Home page content
-    fetch('header-home.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('header-home-placeholder').innerHTML = data)
-        .catch(error => console.error('Error loading header-home:', error));
+document.addEventListener("DOMContentLoaded", function () {
+    const headerHomePlaceholder = document.getElementById('header-home-placeholder');
+    const headerPlaceholder = document.getElementById('header-placeholder');
+    const footerPlaceholder = document.getElementById('footer-placeholder');
+    const privacyPolicyPlaceholder = document.getElementById('privacyPolicy');
+    const termsPlaceholder = document.getElementById('Terms');
+    const modalFormPlaceholder = document.getElementById('modalForm-placeholder');
 
-    // Fetch and load header Inner page content
-    fetch('header.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('header-placeholder').innerHTML = data)
-        .catch(error => console.error('Error loading header:', error));
+    if (headerHomePlaceholder) {
+        headerHomePlaceholder.innerHTML = ` <header class="nav-down">
+         <div class="navbar-wrapper">
+            <div class="container">
+               <nav class="navbar navbar-inverse">
+                  <div id="nav-icon4" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span></span> <span></span> <span></span> </div>
+                  <div class="navbar-header st0-logo-crop">
+                     <a class="navbar-brand " href="index.html">
+                     <img src="./Content/svg/logo.svg" class="pull-left sticky-1">
+                     <img src="./Content/svg/logo-inner.svg" class="pull-left sticky-2">
+                     </a>
+                     <div class="pull-right home-logo-crop hidden-xs hidden-sm hidden-md">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           viewBox="0 0 38.716 77.982" style="enable-background:new 0 0 38.716 77.982;" xml:space="preserve">
+                           <line class="st0-logo-crop" x1="31.372" y1="2.101" x2="31.372" y2="76.601" />
+                           <line class="st0-logo-crop" x1="2.372" y1="39.351" x2="36.872" y2="39.351" />
+                        </svg>
+                     </div>
+                  </div>
+                  <div id="navbar" class="navbar-collapse collapse">
+                     <ul class="nav navbar-nav nav-ul">
+                        <li><a href="Brands.html">Brands</a> </li>
+                        <li><a href="Legacy.html">Legacy</a></li>
+                        <li><a href="Team.html">Team</a></li>
+                        <li><a href="Events.html">Events</a></li>
+                        <li><a href="Solutions.html">Solutions</a></li>
+                        <li><a href="Careers.html">Careers</a></li>
+                        <!--   <li><a href="https://printersmysore-staging.azurewebsites.net/Team#jobs" target="_blank">Careers</a></li> -->
+                        <li><a href="Contact.html">Contact us</a></li>
+                        <li><a href="https://www.deccanherald.com/" target="_blank">Deccan Herald</a></li>
+                        <li><a href="https://www.prajavani.net/" target="_blank"> Prajavani</a></li>
+                     </ul>
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </header>`;
+    }
+
+    if (headerPlaceholder) {
+        headerPlaceholder.innerHTML = ` <header class="nav-down">
+         <!-- NAVBAR -->
+         <div class="inner-navbar-wrapper">
+            <div class="container">
+               <nav class="navbar navbar-inverse">
+ 
+                   
+                   <div id="nav-icon4-inner" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span></span> <span></span> <span></span> </div>
+                   
+                  <div class="navbar-header st0-logo-crop-inner">
+                     <a class="navbar-brand" href="index.html">
+                     <img src="./Content/svg/logo-inner.svg" class="pull-left">
+                     </a>
+                     <div class="pull-right home-logo-crop-inner hidden-xs hidden-sm hidden-md">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           viewBox="0 0 38.716 77.982" style="enable-background:new 0 0 38.716 77.982;" xml:space="preserve">
+                           <line class="st0-logo-crop" x1="31.372" y1="2.101" x2="31.372" y2="76.601" />
+                           <line class="st0-logo-crop" x1="2.372" y1="39.351" x2="36.872" y2="39.351" />
+                        </svg>
+                     </div>
+                  </div>
+                  <div id="navbar" class="navbar-collapse collapse">
+                     <ul class="nav navbar-nav nav-ul inner-nav-color">
+                        <li><a id="menuBrands" class="menuAnchor active" href="Brands.html">Brands</a> </li>
+                        <li><a id="menuLegacy" class="menuAnchor active" href= "Legacy.html" >Legacy</a></li>
+                        <li><a id="menuTeam" class="menuAnchor active" href="Team.html" >Team</a></li>
+                        <li><a id="menuHome" class="menuAnchor active" href="Events.html">Events</a></li>
+                        <li><a id="menuSolutions" class="menuAnchor active" href="Solutions.html">Solutions</a></li>
+                        <li><a id="menuCareers" class="menuAnchor active" href= "Careers.html">Careers</a></li>
+                        <!--    <li><a id="menuSolutions" class="menuAnchor active" href="/Team#jobs" target="_blank">Careers</a></li>-->
+                        <li><a id="menuSolutions" class="menuAnchor active" href="Contact.html">Contact us</a></li>
+                        <li><a href="https://www.deccanherald.com/" target="_blank">Deccan Herald</a></li>
+                        <li><a href="https://www.prajavani.net/" target="_blank"> Prajavani</a></li>
+                     </ul>
+                  </div>
+               </nav>
+            </div>
+         </div>
+      </header>`;
+    }
+
+    if (footerPlaceholder) {
+        footerPlaceholder.innerHTML = `
+
+      <footer class="footer space wow fadeInDown">
+         <div class="container">
+            <div class="row">
+               <img src="./Content/svg/logo-footer.svg" class="img-responsive center-block logo-bottom" alt="The Printers Mysore">
+               <p class="text-center copy-right-space">&#9400; 2018 All Rights Reserved</p>
+               <div class="col-xs-12 col-sm-3 col-sm-offset-2 col-xs-offset-0 text-align-c">
+                  <ul>
+                     <li><a href="Contact.html">Contact us</a></li>
+                     <li>
+                        <a id="btnMedia"  href="#modalForm" class=""  data-toggle="modal" data-target="#modalForm">Write to us</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-xs-12 col-sm-3 text-align-c no-mar-pad">
+                  <ul>
+                     <li><a href="Careers.html">Careers</a></li>
+                     <li><a href="Subscriptions.html"> Subcribe to our Paper</a> </li>
+                  </ul>
+               </div>
+               <div class="col-xs-12 col-sm-3 text-align-c no-mar-pad">
+            <ul>
+  <li>
+    <a href="https://api.whatsapp.com/send?phone=919008266666" title="" target="_blank">
+      <img src="./Content/images/whats-app-green.png" class="wats-app"> 
+      <span> +91 90082 66666 </span>
+    </a>
+  </li>
+  <li>
+    <a href="javascript:void(0);" class="privacyPolicy">Privacy Policy</a>
+    <a href="javascript:void(0);" class="Terms">&nbsp;Terms</a>
+  </li>
+</ul>
+
+               </div>
+            </div>
+         </div>
+      </footer>
+`;
+    }
+
+    if (privacyPolicyPlaceholder) {
+        privacyPolicyPlaceholder.innerHTML = `
+             <div class="modal modal12" id="privacyPolicy" tabindex="-1" role="dialog" aria-labelledby="privacyPolicy" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+            <div class="modal-body">
+               <div class="modal-content12">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h2 class="terms-head">Privacy policy</h2>
+                  <p>We, The Printers (Mysore) Private Limited (TPML) are the publishers of Deccan Herald and Prajavani newspapers and related publications. We own and manage the internet websites <a href="https://www.deccanherald.com">https://www.deccanherald.com</a>, <a href="http://www.prajavani.net">www.prajavani.net</a>, <a href="https://printersmysore.com">https://printersmysore.com</a> and other related websites, media, etc. as part of our publishing group.</p>
+                  <p>We are committed to the protection of personal privacy and have adopted a policy to protect information about individuals. Any or all information that you may provide to us shall be kept strictly confidential unless the same is required to be disclosed or acted upon during legal proceedings, as and when the need arises.</p>
+                  <p>Users are invited to submit comments, questions, ideas, reviews or any other information concerning TPML publications and the website's contents, provided they understand that such comments will be subject to moderation &amp; TPML reserves the right to remove or edit such content. All such submissions should not be illegal, obscene, threatening, defamatory or infringing on privacy or on intellectual property rights of others.</p>
+                  <p class="terms-subhead">
+                     What type of data we collect
+                  </p>
+                  <p>   Personal information: Depending on your actions on our site, we collect different information of you when you register (signup) on our site, place an order or subscribe to our newsletter. While signing up with us, you may need to place your name, email address, and billing address (if intended to make a purchase).</p>
+                  <p>    Non-personal information: We also collect some non-personally identifiable data, such as demographic information regarding, e.g. user IP addresses, browser types and other anonymous statistical data regarding the use of our website.</p>
+                  <p class="terms-subhead">
+                     Who has the access to your data
+                  </p>
+                  <p> We don’t share your data with third-parties in a way as to reveal any of your personal information like email, name, etcetera (subject to laws and regulations). If you have been through the ways we collect data from, Only our administrators have access to your data. No third party can access to your data from us. However, you can review and delete your data whenever you want. </p>
+                  <p class="terms-subhead">
+                     What purposes your data are used for
+                  </p>
+                  <p> The purpose of taking these data is to identify you as our customer/subscriber/patron and deliver products/notices and other marketing materials. Visitors aren’t allowed to purchase any product or subscribe to newsletter or make a comment anonymously. So, these information are the only means we can identify you and allow you to make these actions on the site thereby. </p>
+                  <p class="terms-subhead">
+                     How long do we retain your information
+                  </p>
+                  <p>
+                     When you register for an account, we process and keep your personal data we have about you for as long as you don’t delete the account/unsubscribe yourself (subject to laws and regulations).
+                  </p>
+                  <p class="terms-subhead">
+                     What we don’t do with your personal data
+                  </p>
+                  <p>
+                     We do not and will never share, disclose, sell, rent, or otherwise provide your personal data to other companies for the marketing of their own products or services.
+                  </p>
+                  <p class="terms-subhead">
+                     How we process these data
+                  </p>
+                  <p>
+                     The collected data are processed in several ways. We use your personally identifiable information (name, email address, etc.) to identify you in order to contact, send newsletter, and provide products &amp; supports. The non-personal data may be used to improve the service.
+                  </p>
+                  <p class="terms-subhead">What rights you have over your data</p>
+                  <p> If you have an account on our site, or have comments, you can request an exported file of the personal information we have about you. You can also place a request to erase your data. This does not include data we are required to keep for security, administrative or legal purposes. </p>
+                  <p class="terms-subhead">
+                     Third party links on our site
+                  </p>
+                  <p>We may talk about third party products and services on our website. Third party sites have their own privacy policies. So, therefore, we have no responsibility or liability for the content and activities of these linked sites.</p>
+                  <p class="terms-subhead">
+                     What data breach procedures we have in place
+                  </p>
+                  <p>
+                     If in any case a breach of data such as loss, alteration, unauthorised disclosure or access, personal data transmission, storage or otherwise processed happens, we will notify you immediately after we become aware of.
+                  </p>
+                  <p class="terms-subhead">
+                     How you can review, update, get a copy or delete your data
+                  </p>
+                  <p>
+                     You can review and update your information at any time by going to your account details. If you want to delete or get a copy of your data on our site, send a mail to <a href="mailto:DHfeedback@deccanherald.co.in">DHfeedback@deccanherald.co.in</a>. We will do that with immediate effect.
+                  </p>
+                  <p class="terms-subhead">
+                     What if we make changes to our Privacy Policy
+                  </p>
+                  <p> We may bring necessary modifications to this Privacy Policy from time to time. Any change made or any new point added to the Privacy Policy described above will be published here on this page. The major changes will also be informed through newsletter. </p>
+                  <h2 class="terms-head"> Cookie Policy for The Printers Mysore Ltd.</h2>
+                  <p class="terms-subhead">
+                     What Are Cookies
+                  </p>
+                  <p> When you use this website, you agree to accept our cookie policy. As is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or 'break' certain elements of the site's functionality. </p>
+                  <p>For more general information on cookies see the Wikipedia article on HTTP Cookies.</p>
+                  <p class="terms-subhead">
+                     How We Use Cookies
+                  </p>
+                  <p> We use cookies for a variety of reasons detailed below. Unfortunately, in most cases, there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site. It is recommended that you leave on all cookies if you are not sure whether you need them or not in case they are used to provide a service that you use. </p>
+                  <p class="terms-subhead">
+                     Disabling Cookies
+                  </p>
+                  <p> You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of this site. Therefore, it is recommended that you do not disable cookies. </p>
+                  <p class="terms-subhead">
+                     The Cookies We Set
+                  </p>
+                  <p>
+                     If you create an account with us, then we will use cookies for the management of the signup process and general administration. These cookies will usually be deleted when you log out however in some cases they may remain afterward to remember your site preferences when logged out.<br><br>
+                     We use cookies when you are logged in so that we can remember this fact. This prevents you from having to log in every single time you visit a new page. These cookies are typically removed or cleared when you log out to ensure that you can only access restricted features and areas when logged in.
+                  </p>
+                  <p>
+                     This site offers a newsletter/email subscription services and cookies may be used to remember if you are already registered and whether to show certain notifications which might only be valid to subscribed/unsubscribed users.<br><br>
+                     From time to time we offer user surveys and questionnaires to provide you with interesting insights, helpful tools, or to understand our user base more accurately. These surveys may use cookies to remember who has already taken part in a survey or to provide you with accurate results after you change pages.<br><br>
+                     When you submit data to through a form such as those found on contact pages or comment forms cookies may be set to remember your user details for future correspondence.
+                  </p>
+                  <p>
+                     To provide you with a great experience on this site we provide the functionality to set your preferences for how this site runs when you use it. In order to remember your preferences, we need to set cookies so that this information can be called whenever you interact with a page is affected by your preferences.<br><br>
+                     To provide readers like you with a great experience on this site and right recommendations, we will track your journey from story to story and we keep track of the same.
+                  </p>
+                  <p class="terms-subhead">
+                     Third Party Cookies
+                  </p>
+                  <p>
+                     In some special cases, we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site.<br><br>
+                     This site uses Google Analytics which is one of the most widespread and trusted analytics solutions on the web for helping us to understand how you use the site and ways that we can improve your experience. These cookies may track things such as how long you spend on the site and the pages that you visit so we can continue to produce engaging content.
+                  </p>
+                  <p>
+                     For more information on Google Analytics cookies, see the official Google Analytics page.<br><br>
+                     The Google AdSense service we use to serve advertisements uses a DoubleClick cookie to serve more relevant ads across the web and limit the number of times that a given ad is shown to you.<br><br>
+                     For more information on Google AdSense see the official Google AdSense privacy FAQ.
+                  </p>
+                  <p class="terms-subhead">
+                     More Information
+                  </p>
+                  <p>
+                     Hopefully, that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.
+                  </p>
+                  <p>
+                     If you have any concerns or questions, please use contact details as found in this website. Thank you for taking the time to read our Policy and Disclaimer.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>`;
+    }
+
+    if (termsPlaceholder) {
+        termsPlaceholder.innerHTML = `
 
 
 
-    // Fetch and load footer content
-    fetch('footer.hmtl')
-        .then(response => response.text())
-        .then(data => document.getElementById('footer-placeholder').innerHTML = data)
-        .catch(error => console.error('Error loading footer:', error));
-}
-
-// Call the function to load content when the page is loaded
-window.onload = loadContent;
 
 
+             <div class="modal  modal12" id="Terms" tabindex="-1" role="dialog" aria-labelledby="Terms" aria-hidden="true">
+         <div class="modal-dialog modal-lg">
+            <div class="modal-body">
+               <div class="modal-content12">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h2 class="terms-head">Terms</h2>
+                  <p class="terms-subhead">
+                     Terms and Disclaimers
+                  </p>
+                  <p>We, The Printers (Mysore) Private Limited (TPML) are the publishers of Deccan Herald and Prajavani newspapers and related publications. We own and manage the internet websites <a href="https://www.deccanherald.com/">https://www.deccanherald.com</a>, <a href="http://www.prajavani.net/">www.prajavani.net</a>, <a href="https://printersmysore.com/">https://printersmysore.com</a> and other related websites, media, etc. as part of our publishing group.</p>
+                  <p class="terms-subhead">
+                     Links to other Websites
+                  </p>
+                  <p>We are not responsible for the privacy practices or content of any other website that is linked to this website. It is your responsibility to investigate the privacy policies of those other sites.</p>
+                  <p class="terms-subhead">
+                     Links
+                  </p>
+                  <p>This website may contain links to other websites which are not under our control or which are not maintained by us. The links to any such third party websites are provided for your convenience and information only. If you access these websites you do so at your own risk. We are not responsible for the content of those websites and will not be liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use or your reliance on any such content. The fact that a website is linked to this website does not imply any endorsement or sponsorship by us of that website or that we are affiliated in any way with the third party operating that third party website.</p>
+                  <p>Once you leave our servers (you can tell where you are by checking the URL in the location bar on your browser), use of any information you provide is governed by the privacy policy of the operator of the site you are visiting. That policy may differ from ours. If you can't find the privacy policy of any of these sites via a link from the site's homepage, you should contact the site directly for more information.</p>
+                  <p>Our web servers automatically collect limited information about your computer's connection to the Internet, including your IP address, when you visit our site. (Your IP address is a number that lets computers attached to the Internet know where to send you data -- such as the web pages you view.) Your IP address does not identify you personally. We use this information to deliver our web pages to you upon request, to tailor our site to the interests of our users, to measure traffic within our site and let advertisers know the geographic locations from where our visitors come.</p>
+                  <p class="terms-subhead">
+                     Advertisements
+                  </p>
+                  <p>TPML is not responsible or liable for any claims of losses, injury, etc. on account of reliance on advertisements on our website/s. The content and claims made in all/any advertisement/s that appears on our website is solely the responsibility and the representation made by the respective advertiser. Any action or reliance placed upon viewers or users of our website upon advertisements therein should be taken after due and proper independent verification of claims of the advertiser. TPML does not endorse the correctness or marketability or merchantability of services, goods, products, claims, etc. found in any advertise on its website/s. In no event shall TPML be liable or responsible for any claims from anyone in connection with advertisement/s on TPML website/s.</p>
+                  <p class="terms-subhead">
+                     Change of Information and Services
+                  </p>
+                  <p>Information and services published on this website are subject to change without notice.</p>
+                  <p class="terms-subhead">
+                     Information provided to us
+                  </p>
+                  <p>You may at your discretion provide information to us through our contact information provided in order to receive further information about us or our services enumerated on this website. If you do so, you agree that any such information becomes our property and may be used by us or others, reproduced, published, transmitted, displayed modified or distributed at our discretion, subject to our obligations under our Privacy Statement.</p>
+                  <p class="terms-subhead">Copyright and Trademarks</p>
+                  <p>All contents of this website, including the software, design, logos, trademarks, text, and graphics are owned by or licensed to us and are protected by copyright under the laws of India. Apart from fair dealing for the purpose of personal use, private study, research, criticism or review as permitted under copyright legislation, you may not reproduce, transmit, adapt, distribute, sell, modify or publish or otherwise use any of the material on this website without our prior written consent.</p>
+                  <p class="terms-subhead">
+                     Disclaimer and Limitation of Liability
+                  </p>
+                  <p>WE EXCLUDE ALL WARRANTIES, CONDITIONS, AND REPRESENTATIONS WHETHER EXPRESS, IMPLIED, STATUTORY OR OTHERWISE, RELATING IN ANY WAY TO THIS WEB SITE AND ALL ITS  CONTENT, YOUR USE OF THIS WEB SITE AND THE INFORMATION AND SERVICES OFFERED OR ACCESSED THROUGH THIS WEB SITE; AND LIABILITY (INCLUDING FOR NEGLIGENCE) TO YOU OR ANYONE ELSE IN RESPECT OF ANY LOSS OR DAMAGE (INCLUDING SPECIAL, INDIRECT OR CONSEQUENTIAL LOSS OR DAMAGE), COSTS AND EXPENSES SUFFERED BY YOU OR CLAIMS MADE AGAINST YOU ARISING FROM OR IN CONNECTION WITH ANY USE OF THE INFORMATION, PRODUCTS OR SERVICES SUPPLIED, OFFERED TO BE SUPPLIED OR ADVERTISED OR ACCESSED THROUGH THIS WEB SITE FOR ANY REASON WHATSOEVER (INCLUDING NEGLIGENCE). NO LIABILITY WILL FASTEN ON TPML, ITS AGENTS, EMPLOYEES, ETC. IF YOU ACT ON YOUR OWN ON ANY INFORMATION THAT IS CONTAINED ON THIS WEBSITE. WE WILL ALSO NOT BE LIABLE FOR ANY ADVICE OR INFORMATION THAT YOU MAY GATHER FROM US THROUGH THIS WEBSITE UNLESS THE SAME IS PROVIDED BY US THROUGH OUR REGULAR COURSE OF INTERACTION/COMMUNICATION ORIGINATING FROM INTERNALLY AUTHORISED SOURCES.</p>
+                  <p class="terms-subhead">
+                     Indemnity
+                  </p>
+                  <p>You agree to indemnify us and our partners, agents, officers, employees and other authorized representatives against all claims, suits, demands, damages, liabilities, costs or expenses arising in any way out of or in any way connected to your use of this website.</p>
+                  <p class="terms-subhead">Governing Law</p>
+                  <p>Any legal issues or disputes arising out of the use of this website will be governed by the laws of India and by using this website you submit to the jurisdiction of the courts in Bangalore City alone.</p>
+                  <p class="terms-subhead">
+                     How to contact us
+                  </p>
+                  <p>If you have any concerns or questions, please use contact details as found in this website. Thank you for taking the time to read our Policy and Disclaimer.</p>
+               </div>
+            </div>
+         </div>
+      </div>`;
+    }
 
-        // Get the modal
-        var modal = document.getElementById('myModal12');
-
-        // Get the button that opens the modal
-        var btn = document.getElementById("myBtn");
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close12")[0];
-
-        // When the user clicks the button, open the modal
-        btn.onclick = function () {
-            modal.style.display = "block";
-            $('body').css('overflow-y', 'hidden');
-
-        }
-
-
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function () {
-            modal.style.display = "none";
-            $('body').css('overflow-y', 'scroll');
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-                $('body').css('overflow-y', 'scroll');
-            }
-        }
-
-        $(document).keydown(function (e) {
-            // ESCAPE key pressed
-            if (e.keyCode === 27) {
-
-                modal.style.display = "none";
-                $('body').css('overflow-y', 'scroll');
-            }
-        });
+    if (modalFormPlaceholder) {
+        modalFormPlaceholder.innerHTML = `
+            <div id="modalForm" class="modalForm">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <img id="btnClose" src="./Content/svg/close.svg" class="close close-position" data-dismiss="modal">
+                        <div class="modal-body">
+                            <iframe src="https://docs.google.com/forms/..." width="100%" height="500px"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>`;
+    }
+});
 
 
 
-        // Get the modal
-        var modal1 = document.getElementById('myModal123');
-
-        // Get the button that opens the modal
-        var btn = document.getElementById("myBtn1");
-
-        // Get the <span> element that closes the modal
-        var span = document.getElementsByClassName("close123")[0];
-
-        // When the user clicks the button, open the modal
-        btn.onclick = function () {
-            modal1.style.display = "block";
-            $('body').css('overflow-y', 'hidden');
-
-        }
 
 
 
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function () {
-            modal1.style.display = "none";
-            $('body').css('overflow-y', 'scroll');
-        }
+  document.addEventListener("DOMContentLoaded", function () {
+    function openModal(modalId) {
+      document.getElementById(modalId).style.display = 'block';
+      document.body.classList.add('modal-open'); // Add class to body
+    }
 
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function (event) {
-            if (event.target == modal1) {
-                modal1.style.display = "none";
-                $('body').css('overflow-y', 'scroll');
-            }
-        }
+    function closeModal(modalId) {
+      document.getElementById(modalId).style.display = 'none';
+      document.body.classList.remove('modal-open'); // Remove class from body
+    }
 
-        $(document).keydown(function (e) {
-            // ESCAPE key pressed
-            if (e.keyCode === 27) {
+    // Privacy Policy click event
+    document.querySelector('.privacyPolicy').addEventListener('click', function () {
+      openModal('privacyPolicy');
+    });
 
-                modal1.style.display = "none";
-                $('body').css('overflow-y', 'scroll');
-            }
-        });
+    // Terms click event
+    document.querySelector('.Terms').addEventListener('click', function () {
+      openModal('Terms');
+    });
+
+    // Close modals when clicking outside
+    window.addEventListener('click', function (event) {
+      if (event.target.id === 'privacyPolicy' || event.target.id === 'Terms') {
+        closeModal(event.target.id);
+      }
+    });
+
+    // Close modals on ESC key
+    document.addEventListener('keydown', function (e) {
+      if (e.key === "Escape") {
+        closeModal('privacyPolicy');
+        closeModal('Terms');
+      }
+    });
+
+    // Close button logic
+    const closeButtons = document.querySelectorAll('.close');
+    closeButtons.forEach(btn => {
+      btn.addEventListener('click', function () {
+        closeModal(btn.closest('.modal').id);
+      });
+    });
+  });
+
+
+
 
 
 

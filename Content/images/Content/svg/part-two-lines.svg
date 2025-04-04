@@ -1,0 +1,37 @@
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1165.263 54.579" style="enable-background:new 0 0 1165.263 54.579;" xml:space="preserve">
+
+
+	<defs>
+	<style type="text/css">
+	
+ .partner-top {fill:none; stroke:#1e74ff; stroke-width:2; stroke-miterlimit:10;}
+
+	.partner-top  {
+	stroke-dasharray: 1200;
+	stroke-dashoffset:0;
+	-webkit-animation: dash 20s linear forwards;
+	-moz-animation: dash 20s linear forwards;
+	-o-animation: dash 20s linear forwards;
+	-ms-animation: dash 20s linear forwards;
+	animation: dash 20s linear forwards;
+	}
+	
+	@keyframes dash {
+	from{
+	stroke-dashoffset:1200;
+	}
+	to{
+	stroke-dashoffset:0;
+	}
+	}
+	
+	
+</style>
+</defs>
+<line class="partner-top" x1="39.5" y1="9.746" x2="39.5" y2="39.079"/>
+<line class="partner-top" x1="5.167" y1="44.079" x2="34.167" y2="44.079"/>
+<line class="partner-top" x1="1123" y1="9.579" x2="1123" y2="39.579"/>
+<line class="partner-top" x1="1156.5" y1="44.079" x2="1127.667" y2="44.079"/>
+</svg>

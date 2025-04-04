@@ -1,0 +1,31 @@
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 52 89" style="enable-background:new 0 0 52 89;" xml:space="preserve">
+
+<defs>
+	<style type="text/css">
+.st0{fill:none;stroke:#1e74ff;stroke-width:2;stroke-miterlimit:10;}
+
+	.st0 {
+	stroke-dasharray: 1200;
+	stroke-dashoffset:0;
+	-webkit-animation: dash 5s linear forwards;
+	-moz-animation: dash 5s linear forwards;
+	-o-animation: dash 5s linear forwards;
+	-ms-animation: dash 5s linear forwards;
+	animation: dash 5s linear forwards;
+	}
+	
+	@keyframes dash {
+	from{
+	stroke-dashoffset:1200;
+	}
+	to{
+	stroke-dashoffset:0;
+	}
+	}
+</style>
+</defs>
+<line class="st0" x1="14" y1="82" x2="14" y2="6.667"/>
+<line class="st0" x1="44" y1="44.333" x2="7.333" y2="44.333"/>
+</svg>

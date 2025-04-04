@@ -1,0 +1,702 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.crop-margin { 
+    margin-right: 106px;
+}
+.caption-block-legacy {
+	position: absolute;
+	top: 72%;
+	left: 20px;
+}
+
+.caption-block-legacy1 {
+	position: absolute;
+	top: 5%;
+	left: 20px;
+}
+
+.caption-block-legacy2 {
+	position: absolute;
+	top: 5%;
+	left: 20px;
+}
+
+.text-align-c {
+	text-align:left !important;
+}
+.legacy-featurette-heading {
+	font-size: 60px;
+	font-weight: 500;
+	line-height: 1.03;
+	color: #4a4a4a;
+	padding:70px 0 69px 0;
+	color:#FFF;
+}
+.lead-legacy {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.4;
+	padding: 0px 15px;
+}
+.carousel-caption-impact {
+	position: absolute;
+	left: 15px;
+	top: 200px;
+	padding-bottom: 30px;
+}
+.impact-banner-font-h1 {
+	font-family: canada-type-gibson, sans-serif;
+	font-size: 90px;
+	font-weight: 600;
+	font-style: normal;
+	line-height: 1.06;
+	color: #FFF;
+	width: 80%;
+}
+.header-legacy {
+	background: url(../svg/legacy-gradient.svg) 50% 50% no-repeat, url(../images/legacy-banner.jpg) 50% 50% no-repeat;
+	height: 530px;
+	background-blend-mode: multiply;
+	z-index: 0, 1;
+	background-size: cover;
+}
+.embed-svg-legacy {
+	width:8%;
+}
+.legacy-heading {
+	font-size: 60px;
+	font-weight: 500;
+	line-height: 1.03;
+	text-align: left;
+	color: #4a4a4a;
+	padding: 70px 0 70px 15px;
+}
+.legacy-image {
+	float: left;
+	width: 88%;
+	margin-top: 49px;
+}
+.legacy-image1 {
+	float: right;
+	margin-top: 0;
+	width:83%;
+}
+.legacy-image2 {
+	float: left;
+	margin-top: 50px;
+	width:88%;
+}
+.legacy-space-sec1 {
+	margin-top: 124px;
+}
+.legacy-space-sec2 {
+	margin-top:212px;
+}
+.topspace-impact {
+	margin-top: 268px;
+}
+.green-block-legacy1 {
+	margin-top: 360px;
+	background: #91e7bb;
+	position: absolute;
+	width: 88%;
+	height: 288px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 54%;
+	z-index: -1;
+	-webkit-animation: expandline1 1s;
+	animation: expandline1 1s;
+}
+ @keyframes expandline1 {
+ 0% {
+height:   0px;
+}
+ 100% {
+height:288px;
+}
+}
+.green-block-legacy2 {
+	margin-top: 87px;
+	background: #91E7BB none repeat scroll 0% 0%;
+	position: absolute;
+	width: 88%;
+	height: 314px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 46%;
+	z-index: -1;
+	-webkit-animation: expandline2 1s;
+	animation: expandline2 1s;
+}
+ @keyframes expandline2 {
+ 0% {
+height:   0px;
+}
+ 100% {
+height:314px;
+}
+}
+.green-block-legacy3 {
+	margin-top: 170px;
+	background: #91e7bb;
+	position: absolute;
+	width: 88%;
+	height: 411px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 54%;
+	z-index: -1;
+	-webkit-animation: expandline3 1s;
+	animation: expandline3 1s;
+}
+ @keyframes expandline3 {
+ 0% {
+height:   0px;
+}
+ 100% {
+height:411px;
+}
+}
+.legacy-blue-bg {
+	background: #1e77fe;
+	padding: 60px 0 6px 0;
+	height: 889px;
+}
+
+ .legacy-blue-bg2 { height: 563px !important; background: #1e77fe;
+	padding: 60px 0 6px 0;}
+
+.content-width-impact {
+	width: 370px;
+	margin: 0 0 0 90px;
+}
+.impact-img-position {
+	position: relative;
+	width: 100%;
+}
+.row-impact {
+	display: table;
+}
+.col-impact {
+	display:table-cell;
+}
+.rezise-impact-img {
+	background:  url(../images/boy-book-reading.jpg) 91% 50%;
+	height: 808px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.rezise-impact-img1 {
+	background:  url(../images/look-forward.jpg)  80% 50%;
+	height: 563px;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.legacy-impact-content {
+	width:60%;
+	color:#FFF;
+}
+.legacy-lookingforward-content {
+    width: 100%;
+    color: #FFF;
+    padding: 0 50px 0 0;
+}
+ @media only screen and (min-device-width: 480px) and (orientation: landscape) {
+.impact-img-position {
+	width: 67% !important;
+	margin:0 auto;
+}
+
+
+    .lead-legacy {
+        padding: 0px;
+    }
+	 
+
+.legacy-blue-bg {
+	padding: 0px;
+	height: 808px !important;
+}
+}
+ @media screen and (min-width : 320px) {
+    .lead-legacy {
+        padding: 0px;
+    }
+	 
+.legacy-featurette-heading {
+	font-size: 30px;
+	font-weight: 500;
+	line-height: 1.03;
+	padding: 46px 0px 29px;
+	color: #FFF;
+}
+.green-block-legacy1 {
+	margin-top: 249px;
+	background: #91E7BB none repeat scroll 0% 0%;
+	position: absolute;
+	width: 88%;
+	height: 208px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 54%;
+	z-index: -1;
+	-webkit-animation: expandline1 1s;
+	animation: expandline1 1s;
+}
+ @keyframes expandline1 {
+ 0% {
+height:   0px;
+}
+ 100% {
+height:208px;
+}
+}
+.green-block-legacy2 {
+	margin-top: 47px;
+	background: #91E7BB none repeat scroll 0% 0%;
+	position: absolute;
+	width: 88%;
+	height: 214px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 46%;
+	z-index: -1;
+	-webkit-animation: expandline2 1s;
+	animation: expandline2 1s;
+}
+ @keyframes expandline2 {
+ 0% {
+height:   0px;
+}
+ 100% {
+height:214px;
+}
+}
+.green-block-legacy3 {
+	margin-top: 100px;
+	background: #91e7bb;
+	position: absolute;
+	width: 88%;
+	height: 211px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 54%;
+	z-index: -1;
+	-webkit-animation: expandline3 1s;
+	animation: expandline3 1s;
+}
+ @keyframes expandline3 {
+ 0% {
+height:   0px;
+}
+ 100% {
+height:211px;
+}
+}
+.legacy-blue-bg {
+	padding: 0px 15px;
+	height: 751px;
+}
+    .legacy-blue-bg2{
+        height: auto !important;
+        padding-bottom: 50px !important;
+    }
+
+
+.legacy-blue-bg-sm {
+	padding: 0px 15px;
+	/*height: 366px !important;*/
+}
+.impact-img-position {
+	position: relative;
+	width: 100%;
+	margin:0 auto;
+}
+.text-align-c {
+	text-align:center !important;
+}
+.carousel-caption-impact {
+	top: 169px;
+}
+.legacy-sm-space {
+	margin-top: 10px;
+}
+
+	.legacy-sm-space1 {
+		margin-top: 43px;
+	}
+.legacy-sm-space2 {
+	margin-top:100px;
+}
+.legacy-image1 {
+	float: right;
+	margin-top: 0px;
+	width: 88%;
+}
+.carousel-caption-impact {
+	top: 169px;
+	left: 15px;
+}
+.impact-banner-font-h1 {
+	font-size: 45px;
+    width:100%;
+}
+.legacy-heading {
+	font-size: 30px;
+}
+.content-width-impact {
+	width: auto;
+	margin:0;
+}
+.legacy-space-sec2 {
+	margin-top: 54px;
+}
+.topspace-impact {
+	margin-top: 60px;
+}
+
+	 .legacy-heading {
+	
+	padding: 40px 0 20px 15px;
+}
+
+.rezise-impact-img {
+	background: transparent url("../images/boy-book-reading.jpg") no-repeat scroll 78% 50% / cover;
+	
+}
+
+    .legacy-impact-content {
+        width: 100%;
+        color: #FFF;
+    }
+    .legacy-lookingforward-content {
+        width: 90%;
+        color: #FFF;
+        padding: 0px;
+    }
+
+.rezise-impact-img1 {
+    background: transparent url("../images/look-forward.jpg") no-repeat scroll 11% 50% / cover;
+    height: 563px;
+}
+
+}
+@media screen and (min-width: 768px) {
+
+
+    .lead-legacy {
+        padding: 0px 15px;
+    }
+	 
+	
+	.legacy-lookingforward-content {
+    width: 78%;
+    color: #FFF;
+    padding: 0 50px 0 0;
+}
+	
+	.crop-margin {
+    margin-right: 36px;
+}
+
+    .legacy-impact-content {
+        width: 78%;
+        color: #FFF;
+        margin-left: 50px;
+        
+    }
+    .legacy-blue-bg-sm {
+        padding: 0px 15px;
+        height: 563px !important;
+    }
+.legacy-featurette-heading {
+	font-size: 60px;
+}
+.impact-banner-font-h1 {
+	font-size: 90px;
+	width:100%;
+}
+.text-align-c {
+	text-align:left !important;
+}
+.topspace-impact {
+	margin-top: 268px;
+}
+.carousel-caption-impact {
+	top: 130px;
+	left: 15px;
+}
+.impact-img-position {
+	position: relative;
+	width: 88%;
+}
+.legacy-sm-space {
+	margin-top:50px;
+}
+.legacy-space-sec1 {
+	margin-top: 160px;
+}
+.legacy-space-sec2 {
+	margin-top: 100px;
+}
+.content-width-impact {
+	width: 360px;
+	margin: 0px 0px 0px 30px;
+}
+.legacy-heading {
+	font-size: 60px;
+}
+.content-width-impact {
+	width: 370px;
+	margin: 0px 0px 0px 90px;
+}
+
+.legacy-blue-bg {
+	height: 808px;
+}
+.legacy-sm-space2 {
+	margin-top: 210px;
+}
+.green-block-legacy1 {
+	margin-top: 360px;
+	background: #91e7bb;
+	position: absolute;
+	width: 88%;
+	height: 288px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 54%;
+	z-index: -1;
+	-webkit-animation: expandline1 1s;
+	animation: expandline1 1s;
+}
+ @keyframes expandline1 {
+ 0% {
+height:   0px;
+}
+ 100% {
+height:288px;
+}
+}
+.green-block-legacy2 {
+	margin-top: 87px;
+	background: #91E7BB none repeat scroll 0% 0%;
+	position: absolute;
+	width: 88%;
+	height: 314px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 46%;
+	z-index: -1;
+	-webkit-animation: expandline2 1s;
+	animation: expandline2 1s;
+}
+ @keyframes expandline2 {
+ 0% {
+height:   0px;
+}
+ 100% {
+height:314px;
+}
+}
+.green-block-legacy3 {
+	margin-top: 170px;
+	background: #91e7bb;
+	position: absolute;
+	width: 88%;
+	height: 411px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 54%;
+	z-index: -1;
+	-webkit-animation: expandline3 1s;
+	animation: expandline3 1s;
+}
+ @keyframes expandline3 {
+ 0% {
+height:   0px;
+}
+ 100% {
+height:411px;
+}
+}
+}
+ @media only screen and (min-width : 1224px) {
+
+    .lead-legacy {
+   
+        padding: 0px 15px;
+    }
+	 
+	 .crop-margin { 
+    margin-right: 106px;
+}
+	 
+	 .legacy-heading {
+	
+	padding: 70px 0 70px 15px;
+}
+	 
+	 .legacy-blue-bg2 { height: 563px !important;}
+	 .legacy-image1 {
+	float: right;
+	margin-top: 0px;
+	width: 84%;
+}
+.impact-img-position {
+	width: 100% !important;
+}
+.legacy-blue-bg {
+	height: 808px !important;
+}
+.topspace-impact {
+	margin-top: 114px;
+}
+.carousel-caption-impact {
+	top: 158px;
+	left: 15px;
+}
+.impact-img-position {
+	position: relative;
+	width: 100%;
+}
+.legacy-space-sec1 {
+	margin-top: 284px;
+}
+.legacy-space-sec2 {
+	margin-top: 212px;
+}
+	.impact-banner-font-h1 {
+		font-size: 90px;
+		width: 90%;
+	}
+.legacy-featurette-heading {
+	font-size: 60px;
+}
+.legacy-heading {
+	font-size: 60px;
+}
+.content-width-impact {
+	width: 365px;
+	margin: 0px 0px 0px 90px;
+}
+.green-block-legacy1 {
+	margin-top: 360px;
+	background: #91e7bb;
+	position: absolute;
+	width: 88%;
+	height: 288px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 54%;
+	z-index: -1;
+	-webkit-animation: expandline1 1s;
+	animation: expandline1 1s;
+}
+@keyframes expandline1 {
+0% {
+    height: 0px;
+}
+
+25% {
+    height: 0px;
+}
+
+50% {
+    height: 0px;
+}
+
+100% {
+    height: 288px;
+}
+}
+
+    .legacy-impact-content {
+        width: 85%;
+        color: #FFF;
+        margin-left: 50px;
+        padding:0 50px 0 0;
+        line-height:24px;
+    }
+.legacy-lookingforward-content {
+    width: 100%;
+    color: #FFF;
+    padding: 0 50px 0 0;
+}
+ 
+.green-block-legacy2 {
+	margin-top: 87px;
+	background: #91E7BB none repeat scroll 0% 0%;
+	position: absolute;
+	width: 88%;
+	height: 314px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 46%;
+	z-index: -1;
+	-webkit-animation: expandline2 1s;
+	animation: expandline2 1s;
+}
+ @keyframes expandline2 {
+0% {
+    height: 0px;
+}
+
+25% {
+    height: 0px;
+}
+
+50% {
+    height: 0px;
+}
+
+100% {
+    height: 314px;
+}
+}
+.green-block-legacy3 {
+	margin-top: 170px;
+	background: #91e7bb;
+	position: absolute;
+	width: 88%;
+	height: 411px;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 54%;
+	z-index: -1;
+	-webkit-animation: expandline3 1s;
+	animation: expandline3 1s;
+}
+ @keyframes expandline3 {
+0% {
+    height: 0px;
+}
+
+25% {
+    height: 0px;
+}
+
+50% {
+    height: 0px;
+}
+
+100% {
+    height: 411px;
+}
+}
+.text-align-c {
+	text-align:left !important;
+}
+
+.rezise-impact-img {
+	background:  url(../images/boy-book-reading.jpg) 91% 50%;
+	height: 808px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+}
+
+

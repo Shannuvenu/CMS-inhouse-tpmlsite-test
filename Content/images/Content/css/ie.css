@@ -1,0 +1,11 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+.home-header1 {
+    background: url(../images/banner1.jpg) center top no-repeat;
+    height: 100%;
+    background-size:cover;
+}
+
+

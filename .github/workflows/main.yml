@@ -19,11 +19,6 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-south-1
           
-      - name: Rename .html files
-        run: |
-          find . -type f -name "*.html" | while read file; do
-            mv "$file" "${file%.html}"
-          done
           
       - name: Restructure HTML files for clean URLs
         run: |

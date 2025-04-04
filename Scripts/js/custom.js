@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
                   <div id="nav-icon4" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span></span> <span></span> <span></span> </div>
                   <div class="navbar-header st0-logo-crop">
                      <a class="navbar-brand " href="index.html">
-                     <img src="./Content/svg/logo.svg" class="pull-left sticky-1">
-                     <img src="./Content/svg/logo-inner.svg" class="pull-left sticky-2">
+                     <img src="../Content/svg/logo.svg" class="pull-left sticky-1">
+                     <img src="../Content/svg/logo-inner.svg" class="pull-left sticky-2">
                      </a>
                      <div class="pull-right home-logo-crop hidden-xs hidden-sm hidden-md">
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
                    
                   <div class="navbar-header st0-logo-crop-inner">
                      <a class="navbar-brand" href="index.html">
-                     <img src="./Content/svg/logo-inner.svg" class="pull-left">
+                     <img src="../Content/svg/logo-inner.svg" class="pull-left">
                      </a>
                      <div class="pull-right home-logo-crop-inner hidden-xs hidden-sm hidden-md">
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <footer class="footer space wow fadeInDown">
          <div class="container">
             <div class="row">
-               <img src="./Content/svg/logo-footer.svg" class="img-responsive center-block logo-bottom" alt="The Printers Mysore">
+               <img src="../Content/svg/logo-footer.svg" class="img-responsive center-block logo-bottom" alt="The Printers Mysore">
                <p class="text-center copy-right-space">&#9400; 2018 All Rights Reserved</p>
                <div class="col-xs-12 col-sm-3 col-sm-offset-2 col-xs-offset-0 text-align-c">
                   <ul>
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <ul>
   <li>
     <a href="https://api.whatsapp.com/send?phone=919008266666" title="" target="_blank">
-      <img src="./Content/images/whats-app-green.png" class="wats-app"> 
+      <img src="../Content/images/whats-app-green.png" class="wats-app"> 
       <span> +91 90082 66666 </span>
     </a>
   </li>

@@ -18,18 +18,16 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-south-1
-
-      - name: Restructure HTML files for clean URLs
+          
+      - name: Rename .html files
         run: |
-          find . -maxdepth 1 -type f -name "*.html" ! -name "index.html" | while read file; do
-            filename=$(basename "$file" .html)
-            mkdir -p "$filename"
-            mv "$file" "$filename/index.html"
+          find . -type f -name "*.html" | while read file; do
+            mv "$file" "${file%.html}"
           done
-
+          
       - name: Deploy static site to S3 bucket
-        run: aws s3 sync --delete ./ s3://printersmysore-corparate-site-prod
-
-      - name: Invalidate CloudFront
+        run: aws s3 sync --content-type "text/html" --delete ./ s3://printersmysore-corparate-site-prod
+        
+      - name: Invalidate Cloudfront
         run: |
-          aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DIST_PROD }} --paths "/*"
+          aws cloudfront create-invalidation --distribution-id ${{secrets.CLOUDFRONT_DIST_PROD}} --paths "/*"
